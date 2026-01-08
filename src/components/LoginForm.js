@@ -8,7 +8,7 @@ const LoginForm = ({setIsLoggedIn, isLoggedIn})=>{
   return(<div>
     {isLoggedIn ||
     <form onSubmit={()=>setIsLoggedIn(true)}>
-     <h1>Parent Componet</h1>
+    
      UserName:
      <input type="text" placeholder="Enter your name"/>
      <br></br>
